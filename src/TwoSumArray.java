@@ -11,7 +11,6 @@ public class TwoSumArray {
         }
 
     }
-
     static int[] getIndices(int[] array, int target){
        for (int i=0; i<array.length; i++){
            for (int k=i+1; k<array.length; k++){
