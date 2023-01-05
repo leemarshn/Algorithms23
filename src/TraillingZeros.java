@@ -1,6 +1,6 @@
 public class TraillingZeros {
     public static void main(String[] args) {
-        System.out.println(addZeros(88));
+        System.out.println(addZeros(30));
     }
 
     static int addZeros(int n){
