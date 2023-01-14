@@ -8,13 +8,21 @@ public class Multiply3Biggest {
 
     static int threeLargestNo(int[] arr){
         int start = arr.length;
-        int end = start - 3;
         _ignoreNegativeBubbleSort(arr);
         int p = 1;
-        while (end<start){
-            p *= arr[end];
-            end++;
+        int end = 0;
+        while (end<3){
+            p *= arr[start-1];
+            if (p<0){
+                start--;
+                end++;
+            }
+
+
         }
+
+
+
        return p;
     }
 
