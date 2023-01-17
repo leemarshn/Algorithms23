@@ -1,10 +1,6 @@
 public class ReverseInteger {
-    public static void main(String[] args) {
-        //System.out.println(1/10);
-        System.out.println(reverseInteger(-900000));
-    }
 
-   static int reverseInteger(int num){
+   int reverseInteger(int num){
        long r = 0;
 
        while (num !=0){
